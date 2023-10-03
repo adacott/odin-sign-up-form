@@ -5,15 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Sign-up Form</title>
+    <title>Sign-up</title>
 </head>
 
 <body>
 
     <div class="leftside">
         <div class="logo">
-            <img src="" alt="Dummy-photo-text">
-            <div class="logo-text">Dummy-text</div>
+            <svg width="151" height="149" viewBox="0 0 151 149" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M95.5 53.5V11V5.5H90H11H5.5V11V90V95.5H11H55.5V138V143.5H61H140H145.5V138V59V53.5H140H95.5Z"
+                    stroke-width="11" />
+            </svg>
+            <div class="logo-text">Revivify</div>
         </div>
 
         <div class="photo-rights">Image licensed from Adobe photos</div>
@@ -38,46 +41,48 @@
                 <div class="top">
                     <div>
                         <label for="first_name">FIRST NAME</label>
-                        <input type="text" name="first_name" id="first_name">
+                        <input type="text" name="first_name" id="first_name" required>
                     </div>
                     <div>
                         <label for="last_name">LAST NAME</label>
-                        <input type="text" name="last_name" id="last_name">
+                        <input type="text" name="last_name" id="last_name" required>
                     </div>
                 </div>
 
                 <div class="middle">
                     <div>
                         <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
                     </div>
                     <div>
                         <label for="phone_number">PHONE NUMBER</label>
-                        <input type="number" name="phone_number" id="phone_number">
+                        <input type="number" name="phone_number" id="phone_number" minlength="9" maxlength="9">
                     </div>
                 </div>
 
                 <div class="bottom">
                     <div>
                         <label for="pw">PASSWORD</label>
-                        <input type="password" name="pw" id="pw">
+                        <input type="password" name="pw" id="pw" required>
                     </div>
                     <div>
                         <label for="pw_confirm">CONFIRM PASSWORD</label>
-                        <input type="password" name="pw_confirm" id="pw_confirm">
+                        <input type="password" name="pw_confirm" id="pw_confirm" required>
                     </div>
                 </div>
                 <div class="box-bottom"></div>
 
                 <div class="submit">
-                    <button type="button">Create Account</button>
+                    <button class="btn" type="submit">Create Account</button>
                 </div>
             </fieldset>
 
         </form>
 
         <div class="footer">
-            <div>Already have an account? <a href="">Log in</a></div>
+            <div class="question">Already have an account?
+                <a href="">Log in</a>
+            </div>
         </div>
     </div>
 
