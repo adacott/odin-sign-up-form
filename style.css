@@ -38,7 +38,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    /* background-image: url(images/neon_city3.jpeg); */
+    background-image: url(images/neon_city3.jpeg);
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
@@ -176,7 +176,7 @@ fieldset>* {
     font-size: 1rem;
 }
 
-button {
+.btn {
     background-color: black;
     border: 1px solid rgb(255, 166, 0);
     color: rgb(255, 167, 3);
@@ -184,12 +184,12 @@ button {
     padding: 10px 40px;
 }
 
-button:hover {
+.btn:hover {
     background: rgb(167, 109, 1);
     color: white;
 }
 
-button:active {
+.btn:active {
     transform: translateY(2px);
 }
 
