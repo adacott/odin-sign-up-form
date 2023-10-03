@@ -123,7 +123,7 @@ svg {
     color: rgb(176, 77, 7);
     display: flex;
     align-items: center;
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 .inputs {
@@ -164,7 +164,7 @@ fieldset {
     align-items: center;
     justify-content: center;
     height: 100%;
-    gap: 7%;
+    gap: 5%;
 }
 
 fieldset>* {
@@ -213,7 +213,7 @@ fieldset>* {
     height: var(--footer);
     display: flex;
     flex-direction: column;
-    padding-top: 75px;
+    padding-top: 10px;
     padding-left: 5%;
     color: rgba(255, 255, 255, 0.778);
 }
